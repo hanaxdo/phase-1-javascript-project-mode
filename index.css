@@ -1,0 +1,49 @@
+.user{
+    width: 25%;
+    margin-right: 2%;
+    margin-bottom: 30px;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 10px;;
+}
+
+h3, h4, p{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+input{
+    display: block;
+    margin-bottom: 6px;
+    width: 250px;
+    height: 25px;
+}
+
+form button{
+    float: none;
+}
+
+#favorite{
+    background-color:gray;
+    float: left;
+}
+
+#delete{
+    background-color: red;
+    color: white;
+    float: right;
+}
+
+#favorite, #delete{
+    outline: none;
+    border: none;
+    padding: 6px 10px;
+    color: white;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+html, body {
+    background-color: lightsteelblue;
+}
