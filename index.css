@@ -1,5 +1,5 @@
 .user{
-    width: 25%;
+    width: 27%;
     margin-right: 2%;
     margin-bottom: 30px;
     display: inline-block;
@@ -15,7 +15,7 @@ h3, h4, p{
 input{
     display: block;
     margin-bottom: 6px;
-    width: 250px;
+    width: 200px;
     height: 25px;
 }
 
@@ -46,4 +46,13 @@ form button{
 
 html, body {
     background-color: lightsteelblue;
+}
+
+img {
+    width: 480px;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    border:1px solid #021a40;
 }
