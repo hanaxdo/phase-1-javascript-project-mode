@@ -57,5 +57,10 @@ function favorite(item) {
     }else{
         item.style.backgroundColor = "gray";
     }
-
 }
+
+let names = ["ronnie", "hana", "grampa", "goblin", "john", "jane", "spot", "amber"]
+const newNames = names.map(function(names) {
+    return names.charAt(0).toUpperCase() + names.slice(1);
+})
+console.log(newNames);
